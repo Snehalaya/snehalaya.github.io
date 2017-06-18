@@ -540,7 +540,12 @@ form .alert {
   margin: 0;
   margin-top: 10px;
 }
-
+.title-style-3{
+	text-align: left;
+  text-transform: capitalize;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
 .title-under {
   display: block;
   margin: 5px auto;
@@ -885,6 +890,7 @@ form .alert {
   animation-duration: 1.5s;
 }
 .animated.fadeIn {
+	padding-bottom:5%;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
 }
